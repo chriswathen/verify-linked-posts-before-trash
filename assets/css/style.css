@@ -1,0 +1,68 @@
+.swal2-container.wp-swal-container {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+	& .swal2-title {
+		color: #23282d;
+		font-size: 24px;
+		font-weight: 600;
+	}
+
+	& .swal2-html-container {
+		color: #444;
+		font-size: 14px;
+		max-height: 300px;
+		overflow-y: auto;
+		padding-right: 8px;
+	}
+
+	& .wp-swal-actions {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	& .wp-swal-confirm-button,
+	& .wp-swal-cancel-button {
+		border-radius: 4px;
+		font-size: 14px;
+		font-weight: 600;
+		margin-left: 8px;
+		padding: 8px 16px;
+		text-transform: uppercase;
+	}
+
+	& .swal2-styled.wp-swal-confirm-button {
+		background-color: #007cba;
+		border: none;
+		color: #fff;
+
+		&:focus {
+			background-color: #006db7;
+			box-shadow: 0 0 0 3px rgba(0, 124, 186, 0.5);
+		}
+
+		&:hover {
+			background-color: #006db7;
+		}
+	}
+
+	& .swal2-styled.wp-swal-cancel-button {
+		background-color: #f3f5f6;
+		border: 1px solid #ccd0d4;
+		color: #444;
+
+		&:hover {
+			background-color: #f0f2f3;
+		}
+	}
+
+	& .swal2-html-container ul {
+		list-style-type: disc;
+		margin-left: 1.5em;
+		padding-left: 0;
+		text-align: left;
+	}
+
+	.swal2-html-container li {
+		margin-bottom: 0.5em;
+	}
+}

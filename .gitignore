@@ -1,0 +1,24 @@
+# .gitignore
+
+# Ignore system and editor files
+*.log
+*.bak
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Ignore dependencies
+node_modules
+
+# Ignore IDE/project files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*.tmproject
+.tmtags
+*.esproj
+*.komodoproject
